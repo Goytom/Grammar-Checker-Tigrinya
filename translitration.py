@@ -101,12 +101,3 @@ def revers_translit(text):
 
     return new_word
 
-text = """ዓመታት"""
-#print(translit(text))
-
-#print(translit(text))
-#print(revers_translit('meleketāte'))
-#print(translit( 
-"""ብዙሕ መንእሰይ ትግራይ፣ ኣባላት ፖሊስን መከላኸሊ ሃገርን ዝነበሩ፣ ኣብ ዝተፈላለዩ ሞያታት
-  ዝነበሩ ፍሉጣት ተጋሩ ብውልቃዊ ውሳንኦም ናብ ዕጥቃዊ ቃልሲ እናተጸምበሩ ይርከቡ።"""
-#  ))
