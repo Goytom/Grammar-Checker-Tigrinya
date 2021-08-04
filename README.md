@@ -1,1 +1,1 @@
-# Grammar-Checker-Tigrinya
+# Construction of Tigrinya POS and Morphology Tagger 
