@@ -1,1 +1,1 @@
-# Tigrinya-POS-and-Morphology-Feature-Tagger
+# Tigrinya POS and Morphology Feature Tagger
