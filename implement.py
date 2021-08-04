@@ -1,11 +1,11 @@
 #implementation of many functions on files
 
 #//
-
 ##translitrating the pos file
 import re
 import json
 import transliteration
+import posTranslit
 
 y_text = open("posfile.txt", 'r', encoding="utf8")
 pos_text = y_text.read()
@@ -79,8 +79,7 @@ with open('dicted_sentence.json', 'w') as file:
 #//
 
 ##all gerundive verbs
-import json
-import posTranslit
+
 v_aux = []
 v_ger_geez = []
 keys__ = list(posTranslit.pos_dict.keys())
@@ -92,15 +91,6 @@ while p < len(keys__):
         v_aux.append(keys__[p])
         #v_ger_geez_.append(posTranslit.translitration.revers_translit(keys__[p]))
     p += 1
-
-"""
-with open('v_aux.json', 'w') as fi:
-    json.dump(v_aux, fi) 
-
-
-print(v_aux)
-"""
-
 
 
 #//
