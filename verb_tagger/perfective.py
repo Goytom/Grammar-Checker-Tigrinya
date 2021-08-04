@@ -192,25 +192,3 @@ def morphPerfec(word):
         return 'V_PRF_Spf3'
     else:
         return 'Not Avail'
-
-"""
-import json
-
-with open('v_prf.json') as f:
-    v_prf = json.load(f)
-
-v_prf_morh = {}
-for verb in v_prf:
-    v_prf_morh[verb] = morphPerfec(verb)
-
-not_avai = []
-for a in v_prf_morh.keys():
-    if v_prf_morh[a] == 'Not Avail':
-        not_avai.append(a)
-
-print(revers_translit('faṭirukume'))
-print(not_avai)
-"""
-
-
-
