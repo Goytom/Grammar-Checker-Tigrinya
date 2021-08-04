@@ -38,13 +38,6 @@ def pos_tagger(tokenized):
 
 
 
-gg = translit("""ነቲ እንኮ ሓቀኛ ኣምላኽ ኢዮም ዘምልኹ ነይሮም ።""")
-gg_ = gg.split()
-
-#print(dict(zip(gg_, pos_tagger(gg_))))
-print(pos_tagger(gg_))
-
-
 
 
 
