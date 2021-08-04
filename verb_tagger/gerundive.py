@@ -190,37 +190,4 @@ def morphGerund(word):
     
     else:
         return 'Not Available'
-
-
-#print(morphGerund(translit( 'ሰቢርክነአን' )))
-## List of all the verbs from the pos_dict
-
-import json
-
-with open('v_aux.json') as f:
-    v_ger = json.load(f)
-
-v_ger_morh = {}
-for verb in v_ger:
-    v_ger_morh[verb] = morphGerund(verb)
-
-print(v_ger_morh)
-
-not_avai = []
-for a in v_ger_morh.keys():
-    if v_ger_morh[a] == 'Not Available':
-        not_avai.append(a)
-
-
-print(not_avai)
-
-#print(revers_translit('ıāöeribekiyo'))
-
-
-
-
-
-
-
-
-
+  
