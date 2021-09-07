@@ -65,19 +65,4 @@ pron_dict = {'kābetome':'PRO_pm3','kābeti':'PRO_sm3','bayenome':'PRO_pm3','be�
 def pronoun(verb):
     return pron_dict[verb]
 
-
 #print(pronoun('ıetane'))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
