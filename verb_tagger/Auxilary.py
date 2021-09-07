@@ -52,19 +52,3 @@ from translitration import*
 
 def morphAuxil(verb):
 		return aux_list[verb]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
