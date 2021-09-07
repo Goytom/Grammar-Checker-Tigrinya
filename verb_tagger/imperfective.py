@@ -228,11 +228,3 @@ from translitration import*
 print(revers_translit('keneıāleyone'))
 print(not_avai)
 """
-
-
-
-
-
-
-
-
