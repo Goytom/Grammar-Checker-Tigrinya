@@ -34,26 +34,3 @@ while k < len(list_):
 pos_dict = dict(zip(pos_keys, pos_values))
 
 #print(pos_dict[translitration.translit('ከደ')])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
